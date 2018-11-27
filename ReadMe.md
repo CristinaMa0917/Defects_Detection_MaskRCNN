@@ -49,13 +49,13 @@ Chips_6 | 6 | Resnet 50 | 43% | randomly init, 20 epoch on all layers
 Multi task networks performs superior than normal end-end networks. And RPN networks helps model to converge much more fast. There are many optimizations could be done like cutting images to smaler size like 56*56,or try to search hyper parameters of Mask RCNN like positive_targets_rate and training instances numsbers.
 
 ##### Folders:
-- logs_chips3: Weights of mrcnn model with training data ('/mnt/sh_flex_storage/project/xcos_mask/data/trainset.h5')
-- logs_chips4: Weights of mrcnn new generated data based on lot(/mnt/sh_flex_storage/yjiang2/dt/trainall2/round9/trainset/aligned.json)
-- logs_chips6: Weights of mrcnn6 model with 6 channels images on new lot
-- logs_simply: Weights of simlified mrcnn whose resnet is changed to  25 
 - mrcnn: Modified mask rcnn mdoels
 - run : Display ,train,eval,files based on mrcnn
 - mrcnn6: Mask Rcnn with  6 channels
 - run_6 : Train and eval file based on mrcnn6
 - Unet : Run main.py with parsesrs
-    
+(TBA)
+- logs_chips3: Weights of mrcnn model with training data ('/mnt/sh_flex_storage/project/xcos_mask/data/trainset.h5')
+- logs_chips4: Weights of mrcnn new generated data based on lot
+- logs_chips6: Weights of mrcnn6 model with 6 channels images on new lot
+- logs_simply: Weights of simlified mrcnn whose resnet is changed to  25 
