@@ -54,7 +54,11 @@ Multi task networks performs superior than normal end-end networks. And RPN netw
 - mrcnn6: Mask Rcnn with  6 channels
 - run_6 : Train and eval file based on mrcnn6
 - Unet : Run main.py with parsesrs
+
+
 (TBA)
+
+
 - logs_chips3: Weights of mrcnn model with training data ('/mnt/sh_flex_storage/project/xcos_mask/data/trainset.h5')
 - logs_chips4: Weights of mrcnn new generated data based on lot
 - logs_chips6: Weights of mrcnn6 model with 6 channels images on new lot
