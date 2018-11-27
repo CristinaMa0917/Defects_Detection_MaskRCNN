@@ -46,7 +46,7 @@ Chips_6 | 6 | Resnet 50 | 43% | randomly init, 20 epoch on all layers
   2. Training data has around 16% samples which are null defects.
  
 ##### Conclusion:
-Multi task networks performs superior than normal end-end networks. And RPN networks helps model to converge much more fast. There are many optimizations could be done like cutting images to smaler size like 56*56,or try to search hyper parameters of Mask RCNN like positive_targets_rate and training instances numsbers.
+Multi task networks performs superior than normal end-end networks. And RPN networks helps model to converge much faster. There are futuremore many other optimizations could be done like cutting images to smaler size like 56*56,try to search hyper parameters of Mask RCNN like positive_targets_rate and training instances numsbers, or merge attention mechanism into main branch.
 
 ##### Folders:
 - mrcnn: Modified mask rcnn mdoels
