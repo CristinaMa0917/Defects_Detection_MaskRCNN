@@ -1,7 +1,7 @@
 ###   Defects detection on chips
 - Detect mainly three kinds of defects on chips,which are bump,dent and dot at pixel level.
 #### Data
-- Inputs : 224 * 224 * 6 grey-scale images (3D,2D,form,variance,pads,drill hole)
+- Inputs : 224 * 224 * 6 grey-scale images (3D,2D,pattern,variance,pads,drill hole)
 - Outputs : 224 * 224 * 4 binary masks(background,bump,dent,dots)
 
 - Amount : Depends on synthesis settings
