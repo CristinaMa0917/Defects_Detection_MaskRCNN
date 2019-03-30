@@ -20,13 +20,13 @@
 
 
 - Results:
-    - Firstly a simple chips lot are trained on model 1 . Details are showed in file *run*,*model_train.ipynb*. After around 20 epochs training on 20K images, precison is nearly 97%  , mAP is 0.77. Then a more challenged synthsis chips lot is futhermore be tested. And the best score is 80% by model 1.
+    - Firstly a simple chips lot are trained on model 1 . Details are showed in file *run*,*model_train.ipynb*. After around 20 epochs training on 20K images, f1_score is nearly 97%  , mAP is 0.77. Then a more challenged synthsis chips lot is futhermore be tested. And the best score is 94% by model 1.
 
-Model | Channels | Backbone | Precision | Config |
+Model | Channels | Backbone | F1_Score | Config |
 ---  |---|---|---|---
-Chips_3 | 3 | Resnet 50 | 80%| init with weights trained on simple lot ,12 epoch on all layers
-Chips_simple | 3 | Resnet 25 | 78% | randomly init,32 epoch on all layers
-Chips_6 | 6 | Resnet 50 | 43% | randomly init, 20 epoch on all layers
+Chips_3 | 3 | Resnet 50 | 94%| init with weights trained on simple lot ,12 epoch on all layers
+Chips_simple | 3 | Resnet 25 | 87% | randomly init,32 epoch on all layers
+Chips_6 | 6 | Resnet 50 | 63% | randomly init, 20 epoch on all layers
 
 - Conclusions:
     1. Pretrained weights is unnecessary ,which is also declared by KAiming He in his recentely paper *Rethinking ImageNet Pre-training*
